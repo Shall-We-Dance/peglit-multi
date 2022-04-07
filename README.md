@@ -6,6 +6,13 @@ Here we wrote some custom scripts to run peglit with high efficiency, using mult
 
 ## Installation
 
+Download this repository.
+
+```
+wget https://github.com/Shall-We-Dance/peglit/archive/refs/heads/main.zip
+unzip main.zip
+```
+
 Install environment using conda, which is much easier than compiling from source code.
 
 ```
