@@ -16,7 +16,7 @@ import multiprocessing
 # *         Variables         *
 # *****************************
 # Allowed CPU Threads
-THREAD_NUM = 100
+THREAD_NUM = 4
 # Sepcifiy the input file
 INPUT_FILE = './peg_example.csv'
 # 输出文件
