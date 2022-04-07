@@ -18,3 +18,17 @@ Install environment using conda, which is much easier than compiling from source
 ```
 conda env create -f peglit.yaml
 ```
+
+## Usage
+
+Activate the conda environment.
+
+```
+conda activate peglit
+```
+
+Open `run_peglit.py` and specify `THREAD_NUM`, `INPUT_FILE`, `OUTPUT_FILE` and `MOTIF`, then just run the script.
+
+```
+python run_peglit.py
+```
