@@ -58,7 +58,7 @@ if __name__ == "__main__":
 	results = pool.map(calculate_peg,tasks)
 	pool.close()
 	pool.join()
-	df['link'] = results
+	df['linkers'] = results
 	#Write the result
 	df.to_csv(OUTPUT_FILE,index=False)
 	print(results)
