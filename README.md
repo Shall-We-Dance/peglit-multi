@@ -32,3 +32,7 @@ Open `run_peglit.py` and specify `THREAD_NUM`, `INPUT_FILE`, `OUTPUT_FILE` and `
 ```
 python run_peglit.py
 ```
+
+We also provided an example input `pegRNA_input_example.csv` in this repository, and the output of it should be the same as `pegRNA_result_example.csv`.
+
+
