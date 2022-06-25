@@ -60,7 +60,7 @@ if __name__ == "__main__":
 	pool.join()
 	df['link'] = results
 	#Write the result
-	df.to_csv(OUTPUT_FILE)
+	df.to_csv(OUTPUT_FILE,index=False)
 	print(results)
 	print("Done! Output is saved in %s." % OUTPUT_FILE)
 
