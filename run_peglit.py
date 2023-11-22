@@ -19,7 +19,7 @@ import multiprocessing
 THREAD_NUM = 4
 # Sepcifiy the input file
 INPUT_FILE = './peg_example.csv'
-# 输出文件
+# Output
 OUTPUT_FILE = './peg_linker_result.csv'
 # motif
 MOTIF = "CGCGGTTCTATCTAGTTACGCGTTAAACCAACTAGAA"
